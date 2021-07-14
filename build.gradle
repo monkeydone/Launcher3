@@ -18,6 +18,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
+        applicationId 'com.android.launcherX'
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
@@ -42,19 +43,19 @@ android {
     productFlavors {
         aosp {
             dimension "default"
-            applicationId 'com.android.launcher3'
+            applicationId 'com.android.launcherX'
             testApplicationId 'com.android.launcher3.tests'
         }
 
         l3go {
             dimension "default"
-            applicationId 'com.android.launcher3'
+            applicationId 'com.android.launcherX'
             testApplicationId 'com.android.launcher3.tests'
         }
 
         quickstep {
             dimension "default"
-            applicationId 'com.android.launcher3'
+            applicationId 'com.android.launcherX'
             testApplicationId 'com.android.launcher3.tests'
         }
     }
